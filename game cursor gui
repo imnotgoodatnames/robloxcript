@@ -1,0 +1,468 @@
+local cursagame = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Name = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local mes = Instance.new("TextButton")
+local music = Instance.new("TextButton")
+local laugh = Instance.new("TextButton")
+local DayToNight = Instance.new("TextButton")
+local _666 = Instance.new("TextButton")
+local curseall = Instance.new("TextButton")
+local Disc0 = Instance.new("TextButton")
+local _2CM = Instance.new("TextButton")
+local shutdown = Instance.new("TextButton")
+
+--Properties:
+
+cursagame.Name = "cursagame"
+cursagame.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+cursagame.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+cursagame.ResetOnSpawn = false
+
+Frame.Parent = cursagame
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Frame.Position = UDim2.new(0.382171214, 0, 0.352368146, 0)
+Frame.Selectable = true
+Frame.Size = UDim2.new(0, 339, 0, 209)
+
+Name.Name = "Name"
+Name.Parent = Frame
+Name.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Name.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Name.Size = UDim2.new(0, 339, 0, 25)
+Name.Font = Enum.Font.DenkOne
+Name.Text = "Game curser gui"
+Name.TextColor3 = Color3.fromRGB(0, 0, 0)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = Frame
+Credits.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Credits.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Credits.Position = UDim2.new(0, 0, 0.905794621, 0)
+Credits.Size = UDim2.new(0, 339, 0, 19)
+Credits.Font = Enum.Font.DenkOne
+Credits.Text = "BY c00lkidd & 1x1x1x1"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+mes.Name = "mes"
+mes.Parent = Frame
+mes.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+mes.BorderColor3 = Color3.fromRGB(255, 0, 0)
+mes.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
+mes.Size = UDim2.new(0, 79, 0, 31)
+mes.Font = Enum.Font.GothamBold
+mes.Text = "creepy messages"
+mes.TextColor3 = Color3.fromRGB(0, 0, 0)
+mes.TextScaled = true
+mes.TextSize = 14.000
+mes.TextWrapped = true
+
+music.Name = "music"
+music.Parent = Frame
+music.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+music.BorderColor3 = Color3.fromRGB(255, 0, 0)
+music.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
+music.Size = UDim2.new(0, 79, 0, 31)
+music.Font = Enum.Font.GothamBold
+music.Text = "cursed music"
+music.TextColor3 = Color3.fromRGB(0, 0, 0)
+music.TextScaled = true
+music.TextSize = 14.000
+music.TextWrapped = true
+
+laugh.Name = "laugh"
+laugh.Parent = Frame
+laugh.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+laugh.BorderColor3 = Color3.fromRGB(255, 0, 0)
+laugh.Position = UDim2.new(0.0714285746, 0, 0.648000002, 0)
+laugh.Size = UDim2.new(0, 79, 0, 34)
+laugh.Font = Enum.Font.GothamBold
+laugh.Text = "creepy laughing"
+laugh.TextColor3 = Color3.fromRGB(0, 0, 0)
+laugh.TextScaled = true
+laugh.TextSize = 14.000
+laugh.TextWrapped = true
+
+DayToNight.Name = "DayToNight"
+DayToNight.Parent = Frame
+DayToNight.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+DayToNight.BorderColor3 = Color3.fromRGB(255, 0, 0)
+DayToNight.Position = UDim2.new(0.388888896, 0, 0.216000006, 0)
+DayToNight.Size = UDim2.new(0, 83, 0, 31)
+DayToNight.Font = Enum.Font.GothamBold
+DayToNight.Text = "Night"
+DayToNight.TextColor3 = Color3.fromRGB(0, 0, 0)
+DayToNight.TextScaled = true
+DayToNight.TextSize = 14.000
+DayToNight.TextWrapped = true
+
+_666.Name = "666"
+_666.Parent = Frame
+_666.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+_666.BorderColor3 = Color3.fromRGB(255, 0, 0)
+_666.Position = UDim2.new(0.388888896, 0, 0.43599999, 0)
+_666.Size = UDim2.new(0, 83, 0, 31)
+_666.Font = Enum.Font.GothamBold
+_666.Text = "666"
+_666.TextColor3 = Color3.fromRGB(0, 0, 0)
+_666.TextScaled = true
+_666.TextSize = 14.000
+_666.TextWrapped = true
+
+curseall.Name = "curseall"
+curseall.Parent = Frame
+curseall.BackgroundColor3 = Color3.fromRGB(125, 0, 0)
+curseall.BorderColor3 = Color3.fromRGB(125, 0, 0)
+curseall.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
+curseall.Size = UDim2.new(0, 83, 0, 34)
+curseall.Font = Enum.Font.DenkOne
+curseall.Text = "CURSE ENTIRE GAME"
+curseall.TextColor3 = Color3.fromRGB(0, 0, 0)
+curseall.TextScaled = true
+curseall.TextSize = 14.000
+curseall.TextWrapped = true
+
+Disc0.Name = "Disc0"
+Disc0.Parent = Frame
+Disc0.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Disc0.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Disc0.Position = UDim2.new(0.693121672, 0, 0.216000006, 0)
+Disc0.Size = UDim2.new(0, 89, 0, 31)
+Disc0.Font = Enum.Font.GothamBold
+Disc0.Text = "Disco"
+Disc0.TextColor3 = Color3.fromRGB(0, 0, 0)
+Disc0.TextScaled = true
+Disc0.TextSize = 14.000
+Disc0.TextWrapped = true
+
+_2CM.Name = "2CM"
+_2CM.Parent = Frame
+_2CM.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+_2CM.BorderColor3 = Color3.fromRGB(255, 0, 0)
+_2CM.Position = UDim2.new(0.693121672, 0, 0.43599999, 0)
+_2CM.Size = UDim2.new(0, 89, 0, 31)
+_2CM.Font = Enum.Font.GothamBold
+_2CM.Text = "another cursed music"
+_2CM.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2CM.TextScaled = true
+_2CM.TextSize = 14.000
+_2CM.TextWrapped = true
+
+shutdown.Name = "shutdown"
+shutdown.Parent = Frame
+shutdown.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+shutdown.BorderColor3 = Color3.fromRGB(255, 0, 0)
+shutdown.Position = UDim2.new(0.693121672, 0, 0.648000002, 0)
+shutdown.Size = UDim2.new(0, 89, 0, 34)
+shutdown.Font = Enum.Font.GothamBold
+shutdown.Text = "shutdown"
+shutdown.TextColor3 = Color3.fromRGB(0, 0, 0)
+shutdown.TextScaled = true
+shutdown.TextSize = 14.000
+shutdown.TextWrapped = true
+
+-- Scripts:
+
+local function QDUURE_fake_script() -- mes.smes 
+	local script = Instance.new('Script', mes)
+
+	script.Parent.MouseButton1Down:connect(function()
+		while true do
+			wait(2)--set this to how much time between messages
+			msg = Instance.new ("Hint")
+			msg.Parent = game.Workspace
+			msg.Text = "YOU ARE NEXT"
+			wait(6)
+			msg:remove()
+			wait(3)
+			msg = Instance.new("Message")
+			msg.Parent = game.Workspace
+			msg.Text = "RUN NOW"
+			wait(6)
+			msg:remove()
+			wait(3)
+			msg = Instance.new("Message")
+			msg.Parent = game.Workspace
+			msg.Text = "1X1X1X1 WAS HERE. RUN NOW"
+			wait(6)
+			msg:remove()
+			wait(3)
+			msg = Instance.new("Message")
+			msg.Parent = game.Workspace
+			msg.Text = "PRAY 666 TIMES SATAN."
+			wait(6)
+			msg:remove()
+			wait(3)
+			msg = Instance.new("Message")
+			msg.Parent = game.Workspace
+			msg.Text = "YOU ARE NEXT. RUN."
+			wait(6)
+			msg:remove()
+			wait(3)
+			msg = Instance.new("Message")
+			msg.Parent = game.Workspace
+			msg.Text = "YOU BETTER RUN NOW."
+			wait(6)
+			msg:remove()
+			wait(3)
+			msg = Instance.new("Message")
+			msg.Parent = game.Workspace
+			msg.Text = "BEHIND YOU"
+			wait(6)
+			msg:remove()
+		end
+	end)
+
+end
+coroutine.wrap(QDUURE_fake_script)()
+local function VCBW_fake_script() -- music.smus 
+	local script = Instance.new('Script', music)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local s = Instance.new("Sound")
+
+		s.Name = "Sound"
+		s.SoundId = "rbxassetid://161586370"
+		s.Volume = 10
+		s.Pitch = 0.2
+		s.Looped = true
+		s.archivable = false
+
+		s.Parent = game.Workspace
+
+		wait(1)
+
+		s:play()
+	end)
+
+end
+coroutine.wrap(VCBW_fake_script)()
+local function RAAYO_fake_script() -- laugh.1xl 
+	local script = Instance.new('Script', laugh)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local s = Instance.new("Sound")
+
+		s.Name = "Sound"
+		s.SoundId = "rbxassetid://35935204"
+		s.Volume = 10
+		s.Pitch = 0.6
+		s.Looped = true
+		s.archivable = false
+
+		s.Parent = game.Workspace
+
+		wait(1)
+
+		s:play()
+	end)
+end
+coroutine.wrap(RAAYO_fake_script)()
+local function VHHG_fake_script() -- DayToNight.dtn 
+	local script = Instance.new('Script', DayToNight)
+
+	script.Parent.MouseButton1Down:connect(function()
+		while true do 
+			game.Lighting.TimeOfDay = "18:00:00"
+			wait(0.5)
+		end
+	end)
+end
+coroutine.wrap(VHHG_fake_script)()
+local function KCPTGWG_fake_script() -- _666.6 
+	local script = Instance.new('Script', _666)
+
+	script.Parent.MouseButton1Down:connect(function()
+		for i,v in next,workspace:children''do
+			if(v:IsA'BasePart')then
+				me=v;
+				bbg=Instance.new('BillboardGui',me);
+				bbg.Name='stuf';
+				bbg.Adornee=me;
+				bbg.Size=UDim2.new(2.5,0,2.5,0)
+				--bbg.StudsOffset=Vector3.new(0,2,0)
+				tlb=Instance.new'TextLabel';
+				tlb.Text='666 666 666 666 666 666';
+				tlb.Font='SourceSansBold';
+				tlb.FontSize='Size48';
+				tlb.TextColor3=Color3.new(1,0,0);
+				tlb.Size=UDim2.new(1.25,0,1.25,0);
+				tlb.Position=UDim2.new(-0.125,-22,-1.1,0);
+				tlb.BackgroundTransparency=1;
+				tlb.Parent=bbg;
+			end;end;
+		function xds(dd)
+			for i,v in next,dd:children''do
+				if(v:IsA'BasePart')then
+					v.BrickColor=BrickColor.new'Really black';
+					v.TopSurface='Smooth';
+					v.BottomSurface='Smooth';
+					s=Instance.new('SelectionBox',v);
+					s.Adornee=v;
+					s.Color=BrickColor.new'Really red';
+					a=Instance.new('PointLight',v);
+					a.Color=Color3.new(1,0,0);
+					a.Range=15;
+					a.Brightness=5;
+					f=Instance.new('Fire',v);
+					f.Size=19;
+					f.Heat=22;
+				end;
+				game.Lighting.TimeOfDay=0;
+				game.Lighting.Brightness=0;
+				game.Lighting.ShadowColor=Color3.new(0,0,0);
+				game.Lighting.Ambient=Color3.new(1,0,0);
+				game.Lighting.FogEnd=200;
+				game.Lighting.FogColor=Color3.new(0,0,0);
+				if #(v:GetChildren())>0 then
+					xds(v) 
+				end
+			end
+		end
+		xds(game.Workspace)
+	end)
+end
+coroutine.wrap(KCPTGWG_fake_script)()
+local function ZHMCR_fake_script() -- curseall.call 
+	local script = Instance.new('Script', curseall)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local s = Instance.new("Sound")
+
+		s.Name = "Sound"
+		s.SoundId = "rbxassetid://35935204"
+		s.Volume = 10
+		s.Pitch = 0.6
+		s.Looped = true
+		s.archivable = false
+
+		s.Parent = game.Workspace
+
+		s:play();
+
+		local s2 = Instance.new("Sound")
+
+		s2.Name = "Sound"
+		s2.SoundId = "rbxassetid://161586370"
+		s2.Volume = 10
+		s2.Pitch = 0.2
+		s2.Looped = true
+		s2.archivable = false
+
+		s2.Parent = game.Workspace
+
+		s2:play();
+
+		msg = Instance.new ("Hint")
+		msg.Parent = game.Workspace
+		msg.Text = "RUN BEFORE 1X1X1X1 GETS YOU."
+
+		for i,v in next,workspace:children''do
+			if(v:IsA'BasePart')then
+				me=v;
+				bbg=Instance.new('BillboardGui',me);
+				bbg.Name='stuf';
+				bbg.Adornee=me;
+				bbg.Size=UDim2.new(2.5,0,2.5,0)
+				tlb=Instance.new'TextLabel';
+				tlb.Text='666 666 666 666 666 666';
+				tlb.Font='SourceSansBold';
+				tlb.FontSize='Size48';
+				tlb.TextColor3=Color3.new(1,0,0);
+				tlb.Size=UDim2.new(1.25,0,1.25,0);
+				tlb.Position=UDim2.new(-0.125,-22,-1.1,0);
+				tlb.BackgroundTransparency=1;
+				tlb.Parent=bbg;
+			end;end;
+
+		function xds(dd)
+			for i,v in next,dd:children''do
+				if(v:IsA'BasePart')then
+					v.BrickColor=BrickColor.new'Really black';
+					v.TopSurface='Smooth';
+					v.BottomSurface='Smooth';
+					s=Instance.new('SelectionBox',v);
+					s.Adornee=v;
+					s.Color=BrickColor.new'Really red';
+					a=Instance.new('PointLight',v);
+					a.Color=Color3.new(1,0,0);
+					a.Range=12;
+					a.Brightness=5;
+					f=Instance.new('Fire',v);
+					f.Size=17;
+					f.Heat=20;
+				end;
+				game.Lighting.TimeOfDay=0;
+				game.Lighting.Brightness=0;
+				game.Lighting.ShadowColor=Color3.new(0,0,0);
+				game.Lighting.Ambient=Color3.new(1,0,0);
+				game.Lighting.FogEnd=200;
+				game.Lighting.FogColor=Color3.new(0,0,0);
+				if #(v:GetChildren())>0 then
+					xds(v);
+				end
+			end
+		end
+		xds(game.Workspace);
+	end)
+
+end
+coroutine.wrap(ZHMCR_fake_script)()
+local function GZCX_fake_script() -- Disc0.1xd 
+	local script = Instance.new('Script', Disc0)
+
+	script.Parent.MouseButton1Down:connect(function()
+		while true do
+
+			game.Lighting.Ambient = Color3.new(math.random(), math.random(), math.random())
+			wait(.25)
+
+		end
+	end)
+end
+coroutine.wrap(GZCX_fake_script)()
+local function KGZDN_fake_script() -- _2CM.2cmu 
+	local script = Instance.new('Script', _2CM)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local s = Instance.new("Sound")
+
+		s.Name = "Sound"
+		s.SoundId = "rbxassetid://150402649"
+		s.Volume = 10
+		s.Pitch = 1
+		s.Looped = true
+		s.archivable = false
+
+		s.Parent = game.Workspace
+
+		wait(1)
+
+		s:play()
+	end)
+end
+coroutine.wrap(KGZDN_fake_script)()
+local function NPIIV_fake_script() -- shutdown.shutdown 
+	local script = Instance.new('Script', shutdown)
+
+	script.Parent.MouseButton1Down:connect(function()
+		for i, players in pairs(game.Players:GetChildren()) do
+			players:Kick("Y0U JUST G0T H4CKED. Y0UR PC IS INF3CTED. Error code : (0x666666666666666666666666666666666666666666666666666666666)")
+		end
+	end)
+end
+coroutine.wrap(NPIIV_fake_script)()
+local function AXMQ_fake_script() -- Frame.drag 
+	local script = Instance.new('Script', Frame)
+
+	script.Parent.Draggable = true
+end
+coroutine.wrap(AXMQ_fake_script)()
